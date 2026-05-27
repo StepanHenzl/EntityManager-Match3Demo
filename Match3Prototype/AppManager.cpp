@@ -33,7 +33,7 @@ int AppManager::InitApplication()
     BlackBoxEntityManager BlackBoxTestSet(*EntityManagerRef);
     BlackBoxTestSet.RunAllTests();
 
-#endif //EnableTests
+#endif
 
     RendererRef = std::make_unique<Renderer>(WindowManagerRef->GetRendererRef(), EntityManagerRef.get());
 

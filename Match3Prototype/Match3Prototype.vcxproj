@@ -77,7 +77,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype;C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype\Utils;C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype\Render;C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype\EntityCore;C:\Users\heste\Desktop\gamedev\DevTools\sdl3\vendored\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>EntityCore;Render;Utils;C:\Users\heste\Documents\gamedev\DevTools\sdl3\vendored\SDL\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <FloatingPointModel>Fast</FloatingPointModel>
@@ -97,7 +97,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype;C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype\Utils;C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype\Render;C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype\EntityCore;C:\Users\heste\Desktop\gamedev\DevTools\sdl3\vendored\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>EntityCore;Render;Utils;C:\Users\heste\Documents\gamedev\DevTools\sdl3\vendored\SDL\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <FloatingPointModel>Fast</FloatingPointModel>
@@ -115,7 +115,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\heste\Documents\old data\VS-repos\Match3Prototype\Match3Prototype;C:\Users\heste\Documents\old data\VS-repos\Match3Prototype\Match3Prototype\Utils;C:\Users\heste\Documents\old data\VS-repos\Match3Prototype\Match3Prototype\Render;C:\Users\heste\Documents\old data\VS-repos\Match3Prototype\Match3Prototype\EntityCore;C:\Users\heste\Documents\gamedev\DevTools\sdl3\vendored\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>EntityCore;Render;Utils;C:\Users\heste\Documents\gamedev\DevTools\sdl3\vendored\SDL\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <FloatingPointModel>Fast</FloatingPointModel>
@@ -135,7 +135,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);ShowFps</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype;C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype\Utils;C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype\Render;C:\Users\heste\Source\Repos\Match3Prototype\Match3Prototype\EntityCore;C:\Users\heste\Desktop\gamedev\DevTools\sdl3\vendored\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>EntityCore;Render;Utils;C:\Users\heste\Documents\gamedev\DevTools\sdl3\vendored\SDL\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <FloatingPointModel>Fast</FloatingPointModel>

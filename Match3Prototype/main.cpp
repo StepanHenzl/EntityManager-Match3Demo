@@ -10,12 +10,6 @@ static std::unique_ptr<AppManager> AppManagerRef = nullptr;
 
 SDL_AppResult SDL_AppInit(void** appstate, int argc, char* argv[])
 {
-
-#ifdef _DEBUG
-#include <crtdbg.h>
-    _CrtSetReportMode(_CRT_ASSERT, _CRTDBG_MODE_DEBUG); // break into debugger instead of showing dialog
-#endif
-
     AppManagerRef = std::make_unique<AppManager>();
 
     if (AppManagerRef->InitApplication() != 0)

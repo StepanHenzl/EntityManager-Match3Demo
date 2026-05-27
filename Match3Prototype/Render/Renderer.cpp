@@ -13,6 +13,14 @@ Renderer::Renderer(SDL_Renderer* RendererRefIn, EntityManager* EntityManagerRefI
     SDLRendererRef = RendererRefIn;
 
     EntityManagerRef = EntityManagerRefIn;
+
+    SDL_SetRenderLogicalPresentation
+    (
+        SDLRendererRef,
+        1920,
+        1080,
+        SDL_LOGICAL_PRESENTATION_STRETCH
+    );
 }
 
 void Renderer::DrawRectanglesLayer(const EntityDataPerLayerZ& LayerDataRef)
@@ -30,16 +38,7 @@ void Renderer::DrawRectanglesLayer(const EntityDataPerLayerZ& LayerDataRef)
 }
 
 void Renderer::Tick()
-{   
-    //TODO: move out of tick, can be set just once
-    SDL_SetRenderLogicalPresentation
-    (
-        SDLRendererRef,
-        1920,
-        1080,
-        SDL_LOGICAL_PRESENTATION_STRETCH
-    );
-
+{ 
     SDL_SetRenderDrawColor(SDLRendererRef, 0, 80, 0, 255);
     SDL_RenderClear(SDLRendererRef);
 
