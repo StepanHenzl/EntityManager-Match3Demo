@@ -2,6 +2,22 @@
 
 Lightweight C++ sprite management system focused on dynamic sprite creation, fast updates, cache-friendly rendering, and O(1) modifications.
 
+**How to build** 
+
+You need:
+
+	* A modern C++ toolchain with experimental C++26 support
+	* CMake 3.20+
+	
+Steps:
+
+	* Clone repo
+	
+	* cmake -B build
+	* cmake --build build --config Release
+	
+	* Binary is now in build/bin or build/bin/%BuildOption%
+
 **Overview** 
 
 This project is a custom low-level rendering utility designed for games or graphical applications that need to create and manipulate sprites efficiently at runtime.
@@ -43,9 +59,4 @@ Traditional object-per-sprite storage can scatter memory and reduce cache effici
 This project separates sprite handles from packed render data so the renderer can iterate tight contiguous arrays.
 
 That improves CPU-side traversal and batch processing.
-
-
-**How to build** 
-
-It is a visual studio project.
   

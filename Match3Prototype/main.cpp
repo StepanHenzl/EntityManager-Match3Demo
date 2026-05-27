@@ -27,6 +27,8 @@ SDL_AppResult SDL_AppEvent(void* appstate, SDL_Event* event)
 
     if(AppManagerRef->HandleInput(appstate, event) == 0)
         return SDL_APP_CONTINUE;
+
+    return SDL_APP_CONTINUE;
 }
 
 SDL_AppResult SDL_AppIterate(void* appstate)

@@ -4,6 +4,8 @@ project(Match3Prototype)
 
 set(CMAKE_CXX_STANDARD 26)
 
+set(BUILD_SHARED_LIBS OFF)
+
 include(FetchContent)
 
 FetchContent_Declare(
@@ -33,10 +35,4 @@ set_target_properties(Match3Prototype PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build/bin
     RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_SOURCE_DIR}/build/bin/Debug
     RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_SOURCE_DIR}/build/bin/Release
-)
-
-add_custom_command(TARGET Match3Prototype POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-    $<TARGET_FILE:SDL3::SDL3>
-    $<TARGET_FILE_DIR:Match3Prototype>
 )
